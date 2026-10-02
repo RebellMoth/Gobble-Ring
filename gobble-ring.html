@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gobble-ring.css">
+    <script src="gobble-ring.js" defer></script>
+    <title>Gobble Rings</title>
+</head>
+<body>
+    <h1> Gobble Rings </h1>
+    <div id="status-display"></div>
+
+    <button id="new-game-button" style="display: none;">Play Again</button>
+    <div class="game-container">
+        <!-- Player invetory-->
+        <div id="player-inventory">
+            <button data-size="1"></button> <!-- Small Button -->
+            <button data-size="2"></button> <!-- Normal button-->
+            <button data-size="3"></button> <!-- Big button-->
+            <button data-size="1"></button> <!-- Small Button -->
+            <button data-size="2"></button> <!-- Normal button-->
+            <button data-size="3"></button> <!-- Big button-->
+        </div>
+
+        <!-- Game Board -->
+        <div id="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+
+        <!-- Computer Inventory-->
+        <div id="computer-inventory">
+            <button data-size="1"></button> <!-- Small Button -->
+            <button data-size="2"></button> <!-- Normal button-->
+            <button data-size="3"></button> <!-- Big button-->
+            <button data-size="1"></button> <!-- Small Button -->
+            <button data-size="2"></button> <!-- Normal button-->
+            <button data-size="3"></button> <!-- Big button--> 
+    </div>
+</body>
+</html>
